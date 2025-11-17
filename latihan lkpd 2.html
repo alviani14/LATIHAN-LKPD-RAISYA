@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    let usia = Number(prompt("Masukkan usia kamu:"));
+    let kategori;
+
+    if (usia < 13) {
+        kategori = "Anak-anak";
+    } 
+    else if (usia <= 17) {
+        kategori = "Remaja";
+    } 
+    else {
+        kategori = "Dewasa";
+    }
+      
+      alert("Kategori usia: " + kategori )
+
+    let nilai = Number(prompt("Masukkan nilai kamu:"));
+    let status;
+
+    if (nilai >= 70) {
+        status = "LULUS";
+    } else {
+        status = "BELUM LULUS";
+    }
+
+    alert("Status nilai: " + status);
+//if digunakan untuk mengecek kondisi pertama
+ //if else digunakan untuk mengecek kondisi lain jika kondisi sebelumnya salah.
+     //Jika semua kondisi salah dan tidak ada else, maka program tidak menampilkan apa-apa. Tapi kalau ada else, maka bagian else yang akan dijalankan. 
+      </script>
+
+</body>
+</html>
