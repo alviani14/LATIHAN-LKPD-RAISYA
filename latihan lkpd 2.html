@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    let usia = Number(prompt("Masukkan usia kamu:"));
+    let kategori;
+
+    if (usia < 13) {
+        kategori = "Anak-anak";
+    } 
+    else if (usia <= 17) {
+        kategori = "Remaja";
+    } 
+    else {
+        kategori = "Dewasa";
+    }
+
+    let nilai = Number(prompt("Masukkan nilai kamu:"));
+    let status;
+
+    if (nilai >= 70) {
+        status = "LULUS";
+    } else {
+        status = "BELUM LULUS";
+    }
+
+    alert("Kategori usia: " + kategori + "\nStatus nilai: " + status);
+</script>
+
+</body>
+</html>
